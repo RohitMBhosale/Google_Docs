@@ -1,0 +1,109 @@
+
+.navbar{
+    height:10.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftSide_navbar{
+
+    width:55%;
+    height:100%;
+    display: flex;
+  
+
+}
+.navbar_menu{
+ 
+    width:90%;
+    margin-left: 8px;    
+}
+.menu{
+   
+    display:flex;
+    align-items: center;
+    height: 50%;
+}
+.heading{
+    margin-left: 3px;
+    border:15px;
+    height: 50%;
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    color: rgb(77, 75, 75);
+}
+.menu p{
+    margin-right: 10px;
+    margin-top:0px;
+    font-size: 15px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top:3px;
+    padding-bottom: 3px;
+    color:rgb(85, 83, 83);
+    font-family: unset;
+}
+.menu p:hover{
+    cursor: pointer;
+    background-color: rgb(243, 241, 241);
+    border-radius: 5px;
+}
+.rightSide_navbar{
+  
+    display:flex;
+    flex-direction: row;
+   
+     align-items: center;
+    width:35%;
+    height:100%;
+}
+.icons{
+    border:1px solid red;
+}
+.share_btn{
+    padding-right:18px;
+    padding-left:18px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border:none;
+    background: #C2E7FF;
+}
+.share_btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor:pointer;
+}
+.login_img{
+ 
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    margin-left:7%;
+}
+.login_img:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.BsChatRightText{
+    margin-right: 8%;
+    color:rgb(67, 65, 65);
+    padding:8px;
+    border-radius: 9px;
+    
+}
+.FaHistory{
+    margin-right: 8%;
+    color:rgb(107, 106, 106);
+    padding:8px;
+    border-radius: 9px;
+}
+.FaHistory:hover{
+    background-color: rgb(243, 241, 241);
+    cursor:pointer;
+}
+.BsChatRightText:hover{
+    background-color: rgb(243, 241, 241);
+    cursor:pointer;
+}
